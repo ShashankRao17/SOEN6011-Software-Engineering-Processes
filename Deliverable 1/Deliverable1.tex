@@ -1,0 +1,137 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{wrapfig}
+\usepackage{gensymb}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\setlength{\parskip}{0.5em}
+\begin{document}
+%	\begin{flushleft}
+\begin{flushleft}
+	\large\textbf SHASHANK RAO\\
+	\large\textbf SID:40104247\\
+%	\small\textbf\href{https://github.com/ShashankRao17/SOEN6011-Software-Engineering-Processes}{GITHUB\-REPOSITORY}
+	\small\textbf https://github.com/ShashankRao17/SOEN6011-Software-Engineering-Processes 
+\end{flushleft}
+\begin{center}
+	\Large\textbf\textit\underline{Project Deliverable - 1 : Problem 1} 
+	
+\end{center}
+\begin{flushleft}
+	\Large\textbf{I. Description}
+\end{flushleft}
+
+		
+		The common schoolbook definition of the cosine of an angle $\theta$ in a right-angled triangle is given by,
+		
+		\begin{center}
+			\Large cos $\theta$=\Large $\frac{adjacent}{hypotenuse}$
+		\end{center}
+		
+		In mathematics, the inverse trigonometric functions (also called arcus function, antitrigonometric functions or cyclometric functions) are the inverse of the basic trigonometric functions (Specifically they are the inverse of sine, cosine, tangent, cotangent, secant and cosecant functions) and are used to obtain an angle from any of the angle’s trigonometric ratios. Thus, similar to the definition of cosine, the arccos can be defined as,
+		\begin{center}
+			\Large arccos $\theta$=\Large$\frac{hypotenuse}{adjacent}$
+		\end{center}
+	
+%	\Large\textbf{II. Graph, Domain \& Range of arccos(x)}
+\begin{flushleft}
+	\Large\textbf{II. Graph, Domain \& Range of arccos(x)}
+\end{flushleft}
+
+		Arccos(x) is the inverse function of f(x)=cos(x) for 0$\leq$x$\leq$$\pi$. The domain of y=arccos(x) is the range of f(x)=cos(x) for 0$\leq$x$\leq$$\pi$ and given by the interval [-1,1]. The range of arccos(x) is the domain of f which is given by the interval [0,$\pi$].\par
+		The graph, domain and range of both cos(x) and arccos(x) is as shown below,
+		\begin{center}
+			\includegraphics[width=0.35\columnwidth]{pic2.png}
+		\end{center}
+\pagebreak	
+\begin{flushleft}
+	\Large\textbf{III. Arccos Table}
+\end{flushleft}
+The below table contains some of the commonly calculated values of	x for various angles($\theta$) in Radian(Rad) \& Degrees($^{\circ}$).
+	\begin{center}
+		\begin{tabular}{c|c|c}
+			\hline
+			x&arccos(x)&arccos(x)\\
+			 &(Rad)&($^{\circ}$)\\
+			 \hline
+			 -1&$\pi$&180$^{\circ}$\\
+			 \hline
+			 -$\sqrt{3}$/2&5$\pi$/6&150$^{\circ}$\\
+			 \hline
+			 -$\sqrt{2}$/2&3$\pi$/4&135$^{\circ}$\\
+			 \hline
+			 -1/2&2$\pi$/3&120$^{\circ}$\\
+			 \hline
+			 0&$\pi$/2&90$^{\circ}$\\
+			 \hline
+			1/2&$\pi$/3&60$^{\circ}$\\
+			 \hline
+			 $\sqrt{2}$/2&$\pi$/4&45$^{\circ}$\\
+			 \hline
+			 $\sqrt{3}$/2&$\pi$/6&30$^{\circ}$\\
+			 \hline
+			 1&0&0$^{\circ}$\\
+			 \hline
+		\end{tabular}
+	\end{center}
+	
+%	\section{References}
+\begin{flushleft}
+	\Large\textbf{IV. References}
+\end{flushleft}
+		\begin{enumerate}
+		\item[i.] http://mathworld.wolfram.com/Cosine.html
+		\item[ii.] https://www.analyzemath.com/Graphing/graphing\_arccosine.html
+		\item[iii.] https://en.wikipedia.org/wiki/Inverse\_trigonometric\_functions
+		\item[iv.] https://www.rapidtables.com/math/trigonometry/arccos.html\#definition
+		\end{enumerate}
+\pagebreak
+	
+	\begin{center}
+		\Large\textbf\textit\underline{Project Deliverable - 1 : Problem 2} 		
+	\end{center}
+	\begin{flushleft}
+		\Large\textbf{I. Problem Statement}
+	\end{flushleft}
+		To develop a system in Java to calculate the result for the trigonometric function arccos(x).
+		
+	\begin{flushleft}
+		\Large\textbf{II. Requirements}
+	\end{flushleft}
+	Below are few constraints that need to be followed:
+	\begin{itemize}
+		\item The primary requirement to the function is to have only a number value as input to the arccos(x) function. 
+		\item In case any other form of input is given, the program should prompt an effective error message to the user.
+		\item The function accepts only a double value as its input argument. Hence, it is the responsibility of the program/function to change the input(number only) to the desired input needed for it to work efficiently.
+	\end{itemize}
+		
+	\begin{flushleft}
+		\Large\textbf{III. Constraints}
+	\end{flushleft}
+		Below are few constraints that need to be followed:
+		\begin{itemize}
+			\item Apart from the functions related to input, output and arithmetic, use of any built-in functions provided in Java is prohibited. 
+			\item The domain y=arccos(x) is the range of f(x)=cos(x) for 0$\leq$x$\leq$$\pi$.
+			\item The range (or interval) of the domain is [-1,1].
+			\item The range of arccos(x) is given by the interval [0,$\pi$].
+		\end{itemize}
+	
+	\begin{flushleft}
+		\Large\textbf{IV. References}
+	\end{flushleft}
+		\begin{enumerate}
+			\item[i.] https://ieeexplore.ieee.org/document/8559686
+		\end{enumerate}
+	
+		
+	
+		
+		
+%	\end{flushleft}
+	
+\end{document}
