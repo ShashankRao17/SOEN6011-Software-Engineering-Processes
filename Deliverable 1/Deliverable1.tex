@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass[12pt]{report}
 
 \usepackage{graphicx}
 \usepackage[margin=1in]{geometry}
@@ -9,6 +9,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 
+
 \setlength{\parskip}{0.5em}
 \begin{document}
 %	\begin{flushleft}
@@ -18,13 +19,14 @@
 %	\small\textbf\href{https://github.com/ShashankRao17/SOEN6011-Software-Engineering-Processes}{GITHUB\-REPOSITORY}
 	\small\textbf https://github.com/ShashankRao17/SOEN6011-Software-Engineering-Processes 
 \end{flushleft}
+\renewcommand \thesection{\arabic{section}}
+\renewcommand \thesubsection{\arabic{section}.\arabic{subsection}}
 \begin{center}
-	\Large\textbf\textit\underline{Project Deliverable - 1 : Problem 1} 
+	\section{Problem-1}
+%	\Large\textbf\textit\underline{Project Deliverable - 1 : Problem 1} 
 	
 \end{center}
-\begin{flushleft}
-	\Large\textbf{I. Description}
-\end{flushleft}
+\subsection{Description}
 
 		
 		The common schoolbook definition of the cosine of an angle $\theta$ in a right-angled triangle is given by,
@@ -39,9 +41,9 @@
 		\end{center}
 	
 %	\Large\textbf{II. Graph, Domain \& Range of arccos(x)}
-\begin{flushleft}
-	\Large\textbf{II. Graph, Domain \& Range of arccos(x)}
-\end{flushleft}
+%\begin{flushleft}
+	\subsection{Graph, Domain \& Range of arccos(x)}
+%\end{flushleft}
 
 		Arccos(x) is the inverse function of f(x)=cos(x) for 0$\leq$x$\leq$$\pi$. The domain of y=arccos(x) is the range of f(x)=cos(x) for 0$\leq$x$\leq$$\pi$ and given by the interval [-1,1]. The range of arccos(x) is the domain of f which is given by the interval [0,$\pi$].\par
 		The graph, domain and range of both cos(x) and arccos(x) is as shown below,
@@ -49,9 +51,9 @@
 			\includegraphics[width=0.35\columnwidth]{pic2.png}
 		\end{center}
 \pagebreak	
-\begin{flushleft}
-	\Large\textbf{III. Arccos Table}
-\end{flushleft}
+%\begin{flushleft}
+	\subsection{Arccos Table}
+%\end{flushleft}
 The below table contains some of the commonly calculated values of	x for various angles($\theta$) in Radian(Rad) \& Degrees($^{\circ}$).
 	\begin{center}
 		\begin{tabular}{c|c|c}
@@ -81,51 +83,55 @@ The below table contains some of the commonly calculated values of	x for various
 	\end{center}
 	
 %	\section{References}
-\begin{flushleft}
-	\Large\textbf{IV. References}
-\end{flushleft}
-		\begin{enumerate}
-		\item[i.] http://mathworld.wolfram.com/Cosine.html
-		\item[ii.] https://www.analyzemath.com/Graphing/graphing\_arccosine.html
-		\item[iii.] https://en.wikipedia.org/wiki/Inverse\_trigonometric\_functions
-		\item[iv.] https://www.rapidtables.com/math/trigonometry/arccos.html\#definition
-		\end{enumerate}
+%	\section{References}
+%		\begin{enumerate}
+%		\item[i.] http://mathworld.wolfram.com/Cosine.html
+%		\item[ii.] https://www.analyzemath.com/Graphing/graphing\_arccosine.html
+%		\item[iii.] https://en.wikipedia.org/wiki/Inverse\_trigonometric\_functions
+%		\item[iv.] https://www.rapidtables.com/math/trigonometry/arccos.html\#definition
+%		\end{enumerate}
 \pagebreak
+
 	
 	\begin{center}
-		\Large\textbf\textit\underline{Project Deliverable - 1 : Problem 2} 		
+		\section{Problem-2} 		
 	\end{center}
-	\begin{flushleft}
-		\Large\textbf{I. Problem Statement}
-	\end{flushleft}
+%	\begin{flushleft}
+		\subsection{Problem Statement}
+%	\end{flushleft}
 		To develop a system in Java to calculate the result for the trigonometric function arccos(x).
 		
 	\begin{flushleft}
-		\Large\textbf{II. Requirements}
+		\subsection{Requirements}
+		\small (Requirements are denoted by unique identifiers preceeding with 'R'.)
 	\end{flushleft}
 	Below are few constraints that need to be followed:
 	\begin{itemize}
-		\item The primary requirement to the function is to have only a number value as input to the arccos(x) function. 
-		\item In case any other form of input is given, the program should prompt an effective error message to the user.
-		\item The function accepts only a double value as its input argument. Hence, it is the responsibility of the program/function to change the input(number only) to the desired input needed for it to work efficiently.
+		\item[R1.] The primary requirement to the function is to have only a number value as input to the arccos(x) function. 
+		\item[R2.] In case any other form of input is given, the program should prompt an effective error message to the user.
+		\item[R3.] The function accepts only a double value as its input argument. Hence, it is the responsibility of the program/function to change the input(number only) to the desired input needed for it to work efficiently.
 	\end{itemize}
 		
 	\begin{flushleft}
-		\Large\textbf{III. Constraints}
+		\subsection{Constraints}
+		\small (Constraints are denoted by unique identifiers preceeding with 'C'.)
 	\end{flushleft}
 		Below are few constraints that need to be followed:
-		\begin{itemize}
-			\item Apart from the functions related to input, output and arithmetic, use of any built-in functions provided in Java is prohibited. 
-			\item The domain y=arccos(x) is the range of f(x)=cos(x) for 0$\leq$x$\leq$$\pi$.
-			\item The range (or interval) of the domain is [-1,1].
-			\item The range of arccos(x) is given by the interval [0,$\pi$].
+		\begin{itemize} 
+			\item[C1.] The domain y=arccos(x) is the range of f(x)=cos(x) for 0$\leq$x$\leq$$\pi$.
+			\item[C2.] The range (or interval) of the domain is [-1,1].
+			\item[C3.] The range of arccos(x) is given by the interval [0,$\pi$].
 		\end{itemize}
 	
-	\begin{flushleft}
-		\Large\textbf{IV. References}
-	\end{flushleft}
+	\begin{center}
+		\section{References}
+	\end{center}
 		\begin{enumerate}
-			\item[i.] https://ieeexplore.ieee.org/document/8559686
+			\item[i.] http://mathworld.wolfram.com/Cosine.html
+			\item[ii.] https://www.analyzemath.com/Graphing/graphing\_arccosine.html
+			\item[iii.] https://en.wikipedia.org/wiki/Inverse\_trigonometric\_functions
+			\item[iv.] https://www.rapidtables.com/math/trigonometry/arccos.html\#definition
+			\item[v.] https://ieeexplore.ieee.org/document/8559686
 		\end{enumerate}
 	
 		
