@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.6.22)  26 JUL 2019 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.6.22)  29 JUL 2019 17:20
 entering extended mode
 **./Deliverable2.tex
 (Deliverable2.tex
@@ -376,50 +376,68 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 16.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 37.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
 
 ("C:\Users\SHASHANK RAO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr
 .fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 37.
+(Font)              <12> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 37.
+(Font)              <8> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 37.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
+(Font)              <6> on input line 38.
  [1
 
-{C:/Users/SHASHANK RAO/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
+{C:/Users/SHASHANK RAO/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+
+Overfull \hbox (12.31636pt too wide) in paragraph at lines 84--85
+[]\OT1/cmr/m/n/12 https://stackoverflow.com/questions/25385173/what-is-a-debugg
+er-and-how-can-it-help-
+ []
+
+
+Overfull \hbox (30.65923pt too wide) in paragraph at lines 85--86
+[]\OT1/cmr/m/n/12 https://softwareengineering.stackexchange.com/questions/16854
+0/what-are-the-advantages-
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
+[3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
  (Deliverable2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
 Package rerunfilecheck Info: File `Deliverable2.out' has not changed.
-(rerunfilecheck)             Checksum: 5FFA2D90939311AB585E00280A8E43AF;109.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
+(rerunfilecheck)             Checksum: 9F9FA972DC88AA2A9CBF899E7B848369;329.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 6175 strings out of 492895
- 93481 string characters out of 3120464
- 198823 words of memory out of 3000000
- 10034 multiletter control sequences out of 15000+200000
+ 6183 strings out of 492895
+ 93585 string characters out of 3120464
+ 199823 words of memory out of 3000000
+ 10037 multiletter control sequences out of 15000+200000
  9117 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,4n,32p,284b,370s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,10n,32p,414b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/SHASHANK RAO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmbx10.pfb><C:/Users/SHASHANK RAO/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/SHASHANK RAO/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/SHASHANK
  RAO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
 ><C:/Users/SHASHANK RAO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb>
-Output written on Deliverable2.pdf (1 page, 66378 bytes).
+sfonts/cm/cmsy10.pfb><C:/Users/SHASHANK RAO/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Deliverable2.pdf (3 pages, 89889 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
