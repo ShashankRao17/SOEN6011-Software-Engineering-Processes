@@ -5,7 +5,7 @@ import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-	arccos_test.class,
+	ArcCosTest.class,
 })
 
 public class arccocTestSuite {

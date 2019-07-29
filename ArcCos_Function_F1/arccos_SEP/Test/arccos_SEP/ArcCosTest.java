@@ -4,7 +4,9 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class arccos_test {
+import arccos.ArcCos;
+
+public class ArcCosTest {
 	
 	static double _pi=3.1415926536;
 	@Test
