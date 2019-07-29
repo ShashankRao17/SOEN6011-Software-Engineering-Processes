@@ -1,13 +1,13 @@
-package arccos_SEP;
+package arccostest;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-	ArcCosTest.class,
+    ArcCosTest.class,
 })
 
-public class arccocTestSuite {
+public class ArcCosTestSuite {
 
 }

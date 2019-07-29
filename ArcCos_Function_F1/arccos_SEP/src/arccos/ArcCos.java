@@ -21,7 +21,9 @@ public class ArcCos {
   private JTextField textFieldDegree;
   private JLabel lblAngleInRadians;
   private JLabel lblAngleInDegrees;
+  
   /**Function to compute the value of PI.*/
+  
   public static double piFunction() {
     double pi = 0;
     double s = 1;
@@ -30,13 +32,15 @@ public class ArcCos {
       pi += s / i;
       s = -s;
     }
-    DecimalFormat df=new DecimalFormat("0.0000000000");
-    String res=df.format(pi);
-    double pi1=Double.parseDouble(res);
+    DecimalFormat df = new DecimalFormat("0.0000000000");
+    String res = df.format(pi);
+    double pi1 = Double.parseDouble(res);
     pi1 = pi1 * 4; 
     return pi1;
   }
+  
   /**Function to compute square root of a number passed as argument.*/  
+  
   public static double squareRoot(double number) {
     double temp;
     double sqrt = number / 2;
@@ -47,7 +51,9 @@ public class ArcCos {
 
     return sqrt;
   }
+  
   /**Function to emulate Math.pow function.*/
+  
   public static double power(double x,int n) {
     double result = 0;
     if (n == 0) {
@@ -59,7 +65,9 @@ public class ArcCos {
     }
     return result;
   }
+  
   /**Function to compute the value of tanx for values greater than 0 and less than 1.*/
+  
   public double calcX1(double x) {
     double result = 0;
     double a1 = power(x, 2);
@@ -69,7 +77,9 @@ public class ArcCos {
     result = a3 / a4;
     return result;
   }
+  
   /**Function to compute the value of tanx for values less than 0 and greater than -1.*/
+  
   public double calcX2(double x) {
     double result = 0;
     double a1 = power(x, 2);
@@ -79,7 +89,9 @@ public class ArcCos {
     result = x / (1 + a3);
     return result;
   }
+  
   /**Function to calculate inverse of Cosine for a number passed as argument.*/
+  
   public double acos(double x) {
     double acos = 0;
     if (x == 1.0) {
@@ -116,7 +128,7 @@ public class ArcCos {
     return acos;
   }
 
-/**
+  /**
  * Launch the application.
  */
   public static void main(String[] args) {
@@ -143,7 +155,7 @@ public class ArcCos {
  * Initialize the contents of the frame.
  */
   private void initialize() {
-    frame = new JFrame();
+    frame = new JFrame("ArcCos Calculator");
     frame.setBounds(100, 100, 356, 383);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.getContentPane().setLayout(null);
@@ -175,9 +187,11 @@ public class ArcCos {
             if (s.isEmpty()) {
               JOptionPane.showMessageDialog(frame, "Input cannot be blank. Please enter a value");
             } else if (!(isNumeric(s))) {
-                JOptionPane.showMessageDialog(frame, "Invalid input. Please enter number in the range of -1.0 & 1.0");
+              JOptionPane.showMessageDialog(frame, "Invalid input. "
+                   + "Please enter number in the range of -1.0 & 1.0");
             } else if (Double.parseDouble(s) < -1 || Double.parseDouble(s) > 1) {
-              JOptionPane.showMessageDialog(frame, "Invalid input. Please enter number in range of -1.0 & 1.0");
+              JOptionPane.showMessageDialog(frame, "Invalid input."
+                   + "Please enter number in range of -1.0 & 1.0");
             } else {
               input = Double.parseDouble(s);
               result = a.acos(input);
@@ -229,7 +243,9 @@ public class ArcCos {
     frame.getContentPane().add(textFieldDegree);
     textFieldDegree.setColumns(10);
   }
-  /**Function to check if input is a number.*/	
+  
+  /**Function to check if input is a number.*/
+  
   public static boolean isNumeric(String str) { 
     try {  
       Double.parseDouble(str);  
