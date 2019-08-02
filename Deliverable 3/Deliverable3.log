@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.6.22)  31 JUL 2019 02:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.6.22)  2 AUG 2019 04:01
 entering extended mode
 **./Deliverable3.tex
 (Deliverable3.tex
@@ -376,53 +376,58 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 16.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
-[1
+("C:\Users\SHASHANK RAO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr
+.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+ [1
 
 {C:/Users/SHASHANK RAO/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 50.
 
-(Deliverable3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
+Overfull \hbox (2.64023pt too wide) in paragraph at lines 55--55
+[]|\OT1/cmr/bx/n/12 Assignable(Maintainable)| 
+ []
 
-
-Package rerunfilecheck Warning: File `Deliverable3.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Deliverable3.out':
-(rerunfilecheck)             Before: 3627F52623C9925D119A2BAAEBCB9D18;159
-(rerunfilecheck)             After:  5BE9D460FD2033B98D2B0FBD23EC9040;224.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
+[2] [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
+ (Deliverable3.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
+Package rerunfilecheck Info: File `Deliverable3.out' has not changed.
+(rerunfilecheck)             Checksum: A43405415B4076280D5A6633B6106C45;286.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
  ) 
 Here is how much of TeX's memory you used:
- 6143 strings out of 492895
- 92979 string characters out of 3120464
- 197823 words of memory out of 3000000
- 10009 multiletter control sequences out of 15000+200000
- 6372 words of font info for 23 fonts, out of 3000000 for 9000
+ 6191 strings out of 492895
+ 93656 string characters out of 3120464
+ 201823 words of memory out of 3000000
+ 10038 multiletter control sequences out of 15000+200000
+ 9464 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,4n,32p,224b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,8n,32p,575b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/SHASHANK RAO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmbx10.pfb><C:/Users/SHASHANK RAO/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/SHASHANK RAO/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/SHASHANK
  RAO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
->
-Output written on Deliverable3.pdf (1 page, 56365 bytes).
+><C:/Users/SHASHANK RAO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb><C:/Users/SHASHANK RAO/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Deliverable3.pdf (4 pages, 94749 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
