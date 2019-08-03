@@ -13,7 +13,7 @@
 
 \begin{center}
 	\large\textbf{SOEN 6011:SOFTWARE ENGINEERING PROCESSES}\\
-	\vspace{0.05cm}\large\textbf{\underline{Deliverable \#2}}\\
+	\vspace{0.05cm}\large\textbf{\underline{Deliverable \#3}}\\
 	\vspace{0.05cm}\small{SHASHANK RAO}\\
 	\small\textbf SID:40104247\\
 
@@ -28,10 +28,10 @@
 	\section{Problem-5}
 \end{center}
 
-\subsection{Source code review for Function F2 - tan(x)}
+\subsection{Source code review for Function F2 [tan(x)] for Team I}
 %	\begin{itemize}
-	\subsubsection{Objective}The objective of this code review is to ensure the supplied code for the function 'tan(x)' complies with the mentioned coding standards and guidelines given by the developer, to ensure better code quality if possible and to check for defects in the supplied code on the basis of correctness, efficiency, maintainability, usability and robustness.
-	\subsubsection{Code Review Approach}
+	\subsubsection{\underline{Objective}}The objective of this code review is to ensure the supplied code for the function 'tan(x)' complies with the mentioned coding standards and guidelines given by the developer, to ensure better code quality if possible and to check for defects in the supplied code on the basis of correctness, efficiency, maintainability, usability and robustness.
+	\subsubsection{\underline{Code Review Approach}}
 	\begin{enumerate}
 		\item[1.] To ensure transparency  and fairness in the review process, an approach mentioned by George T. Doran in the November 1981 issue of \textit{Management Review} called "There's a S.M.A.R.T. way to write management's goals and objectives" was used. This approach(also called the \textit{S.M.A.R.T.} criteria) gives a set of objectives and goals to ensure the code review is carried out in an established manner. As per the paper, S.M.A.R.T. means the following(although over the years, the acronym has taken many different forms):
 	\begin{itemize}
@@ -42,35 +42,45 @@
 	\item[•]\textbf{T}ime Related - when can the results be achieved.
 	\end{itemize}
 	(It should be noted that not all of the S.M.A.R.T. techniques need to be quantified for a successful review.)
-		\item[2.] The coding review is also done using static code analysis plugins(CheckStyle,PMD) which gives a good sense of judgement on the various industry coding standards available and the ones used by the developer for his/her function and how they comply with them.
+		\item[2.] The coding review is also done using static code analysis plugin(CheckStyle) which gives a good sense of judgement on the various industry coding standards available and the ones used by the developer for his/her function and how they comply with them.
     \end{enumerate}		
-	\subsubsection{Coding Style}The coding style followed here is the well renowned Google Checks coding standard. This fact is evident by the use of CheckStyle plugin which maintains either the Google Checks configuration or the Sun Checks configuration. The developer has configured Google Checks as the default configuration during the development process.\par
-	A mix of S.M.A.R.T. criteria and key quality attribute perspective, the following points are worth noting:
+	\subsubsection{\underline{Coding Style Analysis}}The coding style used by the developer is the Google Checks coding standard and has been verified using the CheckStyle plugin.\par
+	A mix of S.M.A.R.T. criteria, key quality attribute perspective and coding standards followed:
 	\begin{center}
 	\begin{tabular}{|p{5.2cm}|p{10cm}|}
 	\hline
 	Criteria&Explaination\\
 	\hline
-	\vspace{0.1cm}\textbf{Specific}&\vspace{0.1cm} A particular area of improvement could be to differentiate the program logic from the main class thereby ensuring encapsulation. Additionally the variable declarations could be improved to match the coding standards set by the team.\\
-	\vspace{0.12cm}\textbf{Assignable(Maintainable)}&\vspace{0.1cm}In a scenario where another developer has to go through or contribute towards the development of this function, ease of maintenance such as low coupling(since there is only a since main function) is provided along with clear JavaDoc documentation.\\
-	\vspace{0.12cm}\textbf{Realistic(Correctness)}&\vspace{0.1cm}The system was developed without using any in-built Math function and has been implemented using the Taylor series and reduction formula and hence the results are close to accurate and realistically achievable as they plain and simple calculations and no approximations whatsoever.\\
-	\vspace{0.05cm}\textbf{Time-Related(Efficient)}&\vspace{0.05cm} The program is developed keeping correctness and efficiency in mind. The system responds to users' input in quick time since most of the coefficients needed for Taylor series approximation are defined as static variables thus reducing the overall execution time and CPU utilization in the long run.\\
+	\vspace{0.1cm}\textbf{Specific}&\vspace{0.1cm}The developer could have implemented a simple power function(Similar to '\textit{Math.pow}') for enhanced readability of code instead of implementing it in the following mannner:\\&\small\textbf{double value += (x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x) * ((T8));}\\
+	\vspace{0.12cm}\textbf{Assignable(Maintainable)}&\vspace{0.1cm}In a scenario where another developer has to go through or contribute towards the development of this function, ease of maintenance due to low coupling is provided along with clear JavaDoc documentation.\\
+	\vspace{0.12cm}\textbf{Realistic(Correctness)}&\vspace{0.1cm}The functionality has been implemented using the Taylor series and reduction formula and hence the results are close to accurate and realistically achievable as there are only calculations and no approximations.\\
+	\vspace{0.05cm}\textbf{Time-Related(Efficient)}&\vspace{0.05cm}The system responds to users' input in quick time since most of the coefficients needed for Taylor series approximation are defined as static variables thus reducing the overall execution time and CPU utilization in the long run.\\
 	\vspace{0.05cm}\textbf{Usability \& Robustness}&\vspace{0.05cm} The program interacts with the user using a Textual User Interface(TUI) with appropriate error handling mechanisms and messages in place to ensure robustness.\\ 
+	\vspace{0.05cm}\textbf{Coding Convention}&\vspace{0.05cm}The coding conventions decided on by the team have been followed in terms of naming conventions for variables, methods, etc. The only exception here the ordering of class structures since all method implementation has been done after the main function. \\
 	\hline
 	\end{tabular}
 	\end{center}
-	\subsubsection{Conclusion}To conclude, other than the point on encapsulation, the overall program is well-structured to encompass all the key attributes keeping the user at the center of its functioning.
-%	\end{itemize}
+	\vspace{-0.5cm}\subsubsection{\underline{Conclusion}}To conclude, other than the points on specific criteria and class stucture(coding convention), the overall program is well implemented to encompass all the key attributes.
+
 \begin{center}
 	\section{Problem-7}
 \end{center}
 
-\subsection{Test review for Function F3 - sinh(x)}
-\subsubsection{Objective}
-\subsubsection{Testing Approach and Computing environment}
+\subsection{Test review for Function F3 [sinh(x)] for Team I}
+\subsubsection{\underline{Objective}}The objective of this test review is to ensure that the supplied implementation for the function 'sinh(x)' complies with the mentioned requirements by the developer, check the correctness and precision of the given implementation and to check the quality of the unit test cases written.
+\subsubsection{\underline{Computing environment and testing approach}}For the purpose of testing the implementation with all due fairness and transparency, the computing environment being used is the JUnit testing framework integrated into the Eclipse IDE. Additionally, testing is also carried out manually using the Textual User Interface(TUI) supplying manual inputs to the console window.
+\subsubsection{\underline{Test review analysis}}
+\begin{itemize}
+\item[•]As per the given user requirement in section 0.2 of the function documentation, it states that " for large values of x the values of sinh(x) will be large in the decimal
+positions, hence for better readability the output values will be rounded
+off to 5 digits". But to maintain the correctness of the function and to ensure precise output to the user, the decimal point precision has been rendered as redundant in this case.
+\item[•]To ensure robustness of the function, the developer has used appropriate error messages satisfying the system requirement given in the function documentation. 
+\item[•]In total there are 5 test cases written using the '\textit{assertEquals}' assertion of JUnit. The test cases however do not test the independent functionalities such \textit{'epowerX'} and \textit{'sinhx'}. This could be an improvement wherein not only the functionality as a whole but the dependent functions/methods are also tested as standalone functionalities.
+\end{itemize}
+\subsubsection{\underline{Conclusion}}To conclude the test review, an area of improvement could be the addition of unit test cases for the dependant functionalities such as \textit{epowerX} to test them as a standalone functionality.\\\\
 
-
-\pagebreak\textbf{References}
+\pagebreak
+\textbf{References}
 	\begin{enumerate}
 	\item[i.]https://en.wikipedia.org/wiki/SMART\_criteria
 	\item[ii.]https://nyu-cds.github.io/effective-code-reviews/02-best-practices/
